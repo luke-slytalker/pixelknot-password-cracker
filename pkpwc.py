@@ -14,10 +14,9 @@ try:
 	pwlist = sys.argv[2]		# file path to a list of passwords
 except:
 	print("(janky) PixelKnot Password Cracker")
-  print("")
-  print("USAGE:  python3 pkpwc.py image.jpg wordlist.txt")
-	priut(":)
-  quit()
+	print(" ")
+	print("USAGE:  python3 pkpwc.py image.jpg wordlist.txt")
+	quit()
 
 
 with open(pwlist) as pw:	# open the file
@@ -63,4 +62,3 @@ with open(pwlist) as pw:	# open the file
 
 
 print("------- CRACKING COMPLETE -------")
-
